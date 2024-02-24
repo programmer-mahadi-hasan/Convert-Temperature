@@ -2,7 +2,7 @@ const userInput = document.getElementById('userInput');
 const toFahrenheit = document.getElementById('toFahrenheit');
 const toCelsius = document.getElementById('toCelsius');
 const result = document.getElementById('result');
-let temp;
+let temp = 0;
 
 function convert() {
     if (toFahrenheit.checked) {
@@ -20,7 +20,5 @@ function convert() {
     else {
         result.innerText = 'Select a Unit';
     }
-
-        
     
 }
